@@ -5,7 +5,8 @@ import org.eclipse.jface.text.BadLocationException;
 import org.eclipse.jface.text.IDocument;
 import org.erlide.wrangler.refactoring.util.WranglerUtils;
 
-public class DuplicatedCodeInstanceElement extends AbstractResultTreeObject {
+public class DuplicatedCodeInstanceElement extends AbstractResultTreeObject
+		implements IDuplicatedElement {
 
 	private int startOffset;
 	private int endOffset;
